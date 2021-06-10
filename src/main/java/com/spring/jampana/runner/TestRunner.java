@@ -8,7 +8,8 @@ public class TestRunner implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("WELCOME TO SPRING BOOT _ GITHUB TEST");
+		String name= "Jampana";
+		System.out.println("WELCOME TO SPRING BOOT _ GITHUB TEST committed by "+ name );
 
 	}
 
